@@ -35,6 +35,7 @@ extension FavoritesViewController: UITableViewDelegate, UITableViewDataSource {
         print(favoriteFacts[indexPath.row])
         var content = cell.defaultContentConfiguration()
         content.text = favoriteFacts[indexPath.row]
+        cell.selectionStyle = .none
         cell.contentConfiguration = content
         return cell
     }

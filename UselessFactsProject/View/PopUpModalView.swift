@@ -61,7 +61,7 @@ class PopUpModalView: UIView {
     lazy var favoriteButton: UIButton = {
         let button = UIButton(type: .system)
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.setTitle("Favoriter", for: .normal)
+        button.setTitle("Favorite", for: .normal)
         button.layer.cornerRadius = 20
         button.backgroundColor = .orange
         button.addTarget(self, action: #selector(favoriteAction), for: .touchUpInside)
